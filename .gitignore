@@ -1,0 +1,18 @@
+# Python build & virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# IDE and OS files
+.DS_Store
+.vscode/
+*.code-workspace
+
+# Raw data folder (keep processed data only)
+data/MetaMotion/
+*.pkl
+!models/fitnova_rf_model.pkl
+!data/processed/03_features_engineered_sample.pkl
+data/interim/
+data/processed/03_features_engineered.pkl
